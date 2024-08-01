@@ -1,0 +1,91 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 213, 0);
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+}
+.card .image{
+    height: 300px;
+}
+.image-card{
+    height: 200%;
+    border-radius: 70px;
+    padding: 50px;
+}
+.button-card{
+    padding: 10px;
+    width: 10rem;
+    margin: 20rem 0px 0px 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 0;
+    background-color: rgb(255, 213, 0);
+    font-weight: bold;
+}
+.description-card h3{
+    margin: 30px 0px 0px 50px;
+    font-size: 30px;
+    color: #4d4d4d;
+    font-weight: 5px;
+}
+.title{
+    margin: 30px 0px 0px 50px;
+    font-size: 50px;
+
+}
+.description{
+    margin: 40px 0px 0px 50px;
+    font-size: 40px;
+    color: #4d4d4d;
+
+}
+.profile-card {
+    padding: 2rem;
+    display: flex;
+}
+.profile-image{
+    margin-top: 2rem;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+ .profile-name{
+    font-size: 30px;
+    margin: 3.5rem 1rem 0 4rem;
+}
+
+@media (max-width: 1250px) {  
+    .card {  
+        max-width: 100%; 
+        padding: 10px; 
+    }  
+ 
+    .card .image .image-card{
+        height: 150%;
+        width: 100%;
+    }
+
+    .profile-card .profile-image {  
+        height: 50px;  
+        width: 50px;  
+    }  
+
+    .description-card h1 {  
+        font-size: 2rem;  
+    }  
+    .profile-card h3 {  
+        font-size: 1.5rem;  
+        margin-bottom: 0.7rem;
+}  
+}
